@@ -116,7 +116,11 @@ def determine_length_of_sentences(text:str):
 def get_five_longest_words(text: str):
   cleaned_up_text = re.sub("[^a-zA-Z ']+", r"\n", text.lower())  # Use a regex to filter out any undesirable elements, as we only want to focus on alphabetical characters.
   split_sentences = cleaned_up_text.split() # Split the text into sentences.
-  return sorted(sorted(split_sentences, key=len)[-5:]) # List slicing allows for specific elements to be retrieved from a list @https://www.geeksforgeeks.org/python/python-list-slicing.
+  remove_redundancies = [] # Create an empty list.
+  for word in split_sentences:
+    if word not in remove_redundancies: # Check if the word is already in the list.
+      remove_redundancies.append(word)
+  return sorted(sorted(remove_redundancies, key=len)[-5:]) # List slicing allows for specific elements to be retrieved from a list @https://www.geeksforgeeks.org/python/python-list-slicing.
 
 def print_out_five_longest_words(text: str):
   position = 0 # Placeholder for iterating the position of the list.
