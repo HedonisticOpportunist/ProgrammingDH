@@ -119,7 +119,6 @@ def get_top_five_frequencies(cleaned_word_list):
   print("The top five frequencies in the text are: ")
   return sorted_frequencies[:5] # Returns the top five frequencies, using array slicing: https://www.freecodecamp.org/news/python-slicing-how-to-slice-an-array/.
 
-
 # Helper function to get the word frequencies of the entire list.
 # @Credit: https://www.geeksforgeeks.org/python/counting-the-frequencies-in-a-list-using-dictionary-in-python/
 def get_all_frequencies(cleaned_word_list):
