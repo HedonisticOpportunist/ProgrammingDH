@@ -83,7 +83,7 @@ def find_longest_word(file_to_read: str):
 # @ Credit: https://labex.io/tutorials/python-how-to-use-set-to-count-element-frequencies-in-a-python-list-398089
 # as well as the previous coding assignment.
 def get_top_five_frequencies(cleaned_word_list):
-  all_frequencies = get_all_frequencies(cleaned_up_text)
+  all_frequencies = get_all_frequencies(cleaned_word_list)
   # @Credit: https://www.geeksforgeeks.org/python/python-program-to-sort-the-list-according-to-the-column-using-lambda/
   # and: https://www.geeksforgeeks.org/python/python-lambda-anonymous-functions-filter-map-reduce/
   # for a better way to explain the line of code below. More specifically, a lambda function is a
