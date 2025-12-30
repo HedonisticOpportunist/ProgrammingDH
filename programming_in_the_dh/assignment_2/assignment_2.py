@@ -75,33 +75,6 @@ def find_longest_word(file_to_read: str):
       words = text_content.split() # Split the text into words.
       return max(words, key=len).strip() # Get the maximum word in terms of length.
 
-#### Return stop word list. #####
-# @Credit: Previous coding assignment.
-def create_stop_word_list_from_file(stop_word_list_file: str):
-  with open(stop_word_list_file, 'r', encoding="utf-16") as file:
-      stop_words = [] # Create an empty list.
-      words = file.read() # Read the file.
-      stop_words = words.split() # Split the text into words/list.
-      return stop_words
-
-# Helper function for converting all words to lowercase.
-def convert_words_to_lowercase(file_to_read: str):
-  with open(file_to_read, 'r') as file:
-    contents = file.read() # Read the file.
-    lower_case_words = contents.lower().split() # Turn the text to lowercase and then split it.
-    return lower_case_words
-
-# Convert all words to lowercase.
-# Remove stop words.
-# Return a cleaned list of words.
-def process_text_for_frequency(text_content: str, stop_words_list):
-  cleaned_text_list = [] # Empty variable that is to be used later.
-  lower_case_words_list = convert_words_to_lowercase(text_content) # Convert all words to lowercase.
-  for word in lower_case_words_list: # Iterate through the lower case words list.
-    if word not in stop_words_list: # Condition that checks if the words in the list are not part of the stop words list.
-      cleaned_text_list.append(word) # Add a word to the cleaned text list if not part of the stop words list.
-  return cleaned_text_list
-
 #### Calculate the top frequencies in a given list. #####
 # 1. Take the cleaned word list.
 # 2 Count the frequency of each word.
