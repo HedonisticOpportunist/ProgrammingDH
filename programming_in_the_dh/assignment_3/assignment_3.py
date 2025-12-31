@@ -38,7 +38,7 @@ def create_stop_word_list_from_file(stop_word_list_file: str):
 #### Helper function for handling different encodings ####
 # @Credit: Previous coding assignments.
 def open_file_and_handle_encoding(file_path: str, encoding: bool, encoding_used: str):
-  if encoding: # If the encoding boolean is set to false.
+  if encoding: # If the encoding boolean is set to true.
     with open(file_path, 'r', encoding=encoding_used) as file: # Handle different encodings if so required.
       contents = file.read() # Read the file.
   else: # If the encoding value is set to false.
