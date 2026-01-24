@@ -6,4 +6,8 @@
 
 ## Digital Tools - ML5J
 
+[HandPose Detection]()
+
+[FaceMesh Detection]()
+
 [Body Posture Detection](https://youtu.be/x4c13_-YUyw)
