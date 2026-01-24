@@ -37,6 +37,6 @@ function draw() {
 }
 
 function gotHands(results) {
-  // save the output to the hands array.
+  // Save the output to the hands array.
   hands = results;
 }
