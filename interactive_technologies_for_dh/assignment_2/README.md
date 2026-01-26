@@ -14,6 +14,8 @@
 
 ## Digital Tools - Interactive Video
 
+The video was created and is hosted in Lumi. 
+
 [Interactive Cat Video](https://app.lumi.education/run/ajwr9v)
 
 ## Digital Tools - Photogrammetry
