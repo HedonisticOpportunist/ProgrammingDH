@@ -15,6 +15,6 @@
 ## Digital Tools - Photogrammetry
 
 Images taken from the following [data set](https://gitlab.com/photogrammetry-test-sets/skull-cameramoves-flash-no-background) (kindly provided for free ❤). 
-Modelling done in Polycam. 
+Modelling done in Polycam, and hosted on p3d.in. 
 
 [Skull](https://p3d.in/paeCQ)
