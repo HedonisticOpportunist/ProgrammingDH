@@ -14,7 +14,7 @@
 
 ## Digital Tools - Interactive Video
 
-The video was created and is hosted in Lumi. Videos and screenshots are all royalty-free.
+The video was created by and is hosted in Lumi. Videos and screenshots are all royalty-free.
 
 [Interactive Cat Video](https://app.lumi.education/run/ARgZe_)
 
