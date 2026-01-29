@@ -28,3 +28,6 @@ Modelling done in Polycam, and hosted on p3d.in.
 ## Digital tools - TinkerCAD and Circuits
 
 [Demo](https://youtu.be/gc_aV501DD4)
+
+[Model Share Link](https://www.tinkercad.com/things/4N2XYcjNFju-headphones-circuit/editel?returnTo=%2Fthings%2F4N2XYcjNFju-headphones-circuit&sharecode=hfKttuH-h7rXS2_sBZcuZOtogdfIYYBJHYPZeB_1WLU )
+[Circuit Share Link](https://www.tinkercad.com/things/0v2maYEjmC2-headphonelamp/edit?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=IRlbashOV0DpyNg467o_f6qSK0A6b4mWd4oy46w3QKo)
