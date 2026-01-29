@@ -25,7 +25,7 @@ Modelling done in Polycam, and hosted on p3d.in.
 
 [Skull](https://p3d.in/paeCQ)
 
-## Digital tools - TinkerCAD and Circuits
+## Digital Tools - TinkerCAD and Circuits
 
 [Demo](https://youtu.be/gc_aV501DD4)
 
